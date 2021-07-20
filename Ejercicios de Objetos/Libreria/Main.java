@@ -15,7 +15,7 @@ public class Main {
 		Capitulo c3 = new Capitulo("Capitulo 3",25,a2);
 		Capitulo [] capitulos = {c1,c2,c3};
 
-		Libro book = new Libro (a2,"Amante",capitulos);
+		new Libro (a2,"Amante",capitulos);
 
 	} // Cierre del Main
 
